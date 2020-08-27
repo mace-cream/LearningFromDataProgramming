@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: install
-      - run: bash setup.sh
+        run: bash setup.sh
       - name: grading
-      - run: python3 code.py
+        run: python3 code.py
