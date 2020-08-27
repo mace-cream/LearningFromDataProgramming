@@ -1,3 +1,3 @@
 #!/bin/bash
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
-poetry install
+python3 -m pip install poetry
+python3 -m poetry install
