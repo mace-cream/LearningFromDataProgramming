@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "learning-from-data-programming-work-repository-template"
+version = "0.1.0"
+description = ""
+authors = ["zhaofeng-shu33 <616545598@qq.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
