@@ -1,4 +1,4 @@
 #!/bin/bash
-python3 -m pip install --user setuptools
-python3 -m pip install --user poetry
-python3 -m poetry install
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3
+export PATH=$PATH:$HOME/.poetry/bin
+poetry install
