@@ -19,4 +19,4 @@ jobs:
       - name: install deps
         run: poetry install
       - name: run grading
-        run: poetry env use 3.8 && python code.py
+        run: poetry env use 3.8 && poetry run python code.py
