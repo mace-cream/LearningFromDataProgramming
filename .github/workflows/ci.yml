@@ -16,7 +16,5 @@ jobs:
         uses: abatilo/actions-poetry@v2.0.0
         with:
           poetry-version: 1.0.10
-      - name: install
+      - name: install and grading
         run: bash setup.sh
-      - name: grading
-        run: python code.py
