@@ -8,15 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python 3
-        uses: actions/setup-python@v2
+      - uses: goanpeca/setup-miniconda@v1
         with:
+          auto-update-conda: false
           python-version: 3.8
-      - name: install poetry
-        uses: abatilo/actions-poetry@v2.0.0
-        with:
-          poetry-version: 1.0.10
       - name: install deps
-        run: poetry install
+        run: conda install numpy pytest
       - name: run grading
-        run: poetry env use 3.8 && poetry run python code.py
+        run: python code.py
