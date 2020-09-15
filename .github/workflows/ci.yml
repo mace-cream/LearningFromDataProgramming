@@ -13,6 +13,7 @@ jobs:
           auto-update-conda: false
           python-version: 3.8
       - name: install deps
+        shell: bash -l {0}
         run: conda install numpy pytest
       - name: run grading
         shell: bash -l {0}
