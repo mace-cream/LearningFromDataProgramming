@@ -4,12 +4,11 @@
 # I have completed the major framework, you can fill the space 
 # to make it work.
 
-__author__ = "Zifeng Wang"
-__email__  = "wangzf18@mails.tsinghua.edu.cn"
-__date__   = "20190920"
+__author__ = "Feng Zhao"
+__email__  = "zhaof17@mails.tsinghua.edu.cn"
+__date__   = "20200915"
 
 import numpy as np
-import pdb
 import os
 
 np.random.seed(2019)

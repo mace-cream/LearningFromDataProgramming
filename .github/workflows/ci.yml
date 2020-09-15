@@ -17,4 +17,4 @@ jobs:
         run: conda install numpy pytest
       - name: run grading
         shell: bash -l {0}
-        run: which python && conda list
+        run: python code.py
